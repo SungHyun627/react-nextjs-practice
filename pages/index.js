@@ -41,7 +41,6 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
   console.log(propertiesForRent, propertiesForSale);
   return (
     <Box>
-      <h1>Hello World</h1>
       <Banner
         purpose="RENT A HOME"
         title1="Rental Homes for"
