@@ -193,4 +193,3 @@ export const getFilterValues = (filterValues) => {
 
   return values;
 };
-Footer;
