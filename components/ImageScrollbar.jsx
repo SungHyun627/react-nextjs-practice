@@ -45,7 +45,7 @@ const ImageScrollbar = ({ data }) => {
     >
       {data.map((item) => (
         <Box
-          itemId={item.id}
+          itemID={item.id}
           key={item.id}
           overflow="hidden"
           p="1"
@@ -54,11 +54,11 @@ const ImageScrollbar = ({ data }) => {
           <Image
             placeholder="blur"
             width={1000}
-            height={1000}
+            height={500}
             sizes="(max-width: 500px) 100px, (max-width: 1023px) 400px, 1000px"
             blurDataURL={item.url}
             src={item.url}
-            alt="image"
+            alt="property"
           />
         </Box>
       ))}
